@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div class="w-screen h-12 bg-gray-500"></div>
 </template>
 
 <script lang="ts">
@@ -15,5 +15,4 @@ export default class Nav extends Vue {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped></style>

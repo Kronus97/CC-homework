@@ -1,16 +1,19 @@
 <template>
-    <Nav />
+    <div>
+        <Nav />
+        <Board :height="20" :width="20" />
+    </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
 import Nav from './components/Nav.vue'
-import Grid from './components/Grid.vue'
+import Board from './components/Board.vue'
 
 @Options({
     components: {
         Nav,
-        Grid,
+        Board,
     },
 })
 export default class App extends Vue {}
